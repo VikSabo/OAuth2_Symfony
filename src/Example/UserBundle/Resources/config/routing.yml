@@ -1,0 +1,7 @@
+example_user_homepage:
+    path:     /
+    defaults: { _controller: ExampleUserBundle:Default:index }
+
+user_addClient:
+  path:       /user/addClient
+  defaults: { _controller: ExampleUserBundle:User:addClient }

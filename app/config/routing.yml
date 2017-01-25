@@ -1,0 +1,18 @@
+example_api:
+    resource: "@ExampleApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+example_user:
+    resource: "@ExampleUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# app/config/routing.yml
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+    
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
